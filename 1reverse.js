@@ -13,7 +13,7 @@ function reverseString(s) {
 };
 
 
-//第二部分 (B.) 請寫一個程式把裡面的字串,每個單字本身做反轉,但是單字的順序不變。
+// (B.) 請寫一個程式把裡面的字串,每個單字本身做反轉,但是單字的順序不變。
 
 function reverseSentence(s) {
 
@@ -26,6 +26,7 @@ function reverseSentence(s) {
     return  ansStr.split(" ").reverse().join(" ");  //最後多一個步驟分割空白 反轉 再join
 
 };
+
 
 
 
