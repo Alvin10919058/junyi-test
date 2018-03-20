@@ -1,6 +1,6 @@
 //第一部分 (A.) 請寫一個程式把裡面的字串反過來。
 
-var reverseString = function(s) {
+function reverseString(s) {
 
     var ansStr = "";        						//回傳的字串
     var tarAry = s.split(""); 					    //字串拆成陣列
@@ -15,7 +15,7 @@ var reverseString = function(s) {
 
 //第二部分 (B.) 請寫一個程式把裡面的字串,每個單字本身做反轉,但是單字的順序不變。
 
-var reverseSentence = function(s) {
+function reverseSentence(s) {
 
     var ansStr = "";                                //回傳的字串
     var tarAry = s.split("");                       //字串拆成陣列
